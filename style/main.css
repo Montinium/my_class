@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background-color: white;
+    font-family: 'Roboto' , 'sansserif';
+}
+
+.student {
+    background-color: grey;
+    width: 300px;
+    background-color: green;
+    margin:10px auto;
+    padding: 40px;
+    border-radius: 10px;
+    transition: 2s all;
+    
+    
+}
+
+h2 {
+    color: white;
+}
+
+.student img {
+    width: 300px;
+    border-radius: 30px;
+}
+
+.student:hover {
+    opacity: 0,2;
+    background-color: yellow
+    
+}
+
+.student:active {
+    opacity: 0,2;
+    padding: 100px;
+}
